@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="libs/pdf.min.js"></script>
+  <script src="libs/jszip.min.js"></script>
+  <script src="libs/mammoth.browser.min.js"></script>
+  <script src="libs/xlsx.full.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    :root { --bg: #0f172a; --card: #1e293b; --accent: #38bdf8; --text: #f8fafc; }
+    body { width: 400px; padding: 0; margin: 0; font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); overflow-x: hidden; }
+    .header { padding: 20px; background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%); text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
+    .header h2 { margin: 0; font-size: 20px; letter-spacing: 1px; }
+    .content { padding: 15px; display: flex; flex-direction: column; gap: 12px; }
+    .btn { border: none; border-radius: 10px; padding: 12px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; box-sizing: border-box; }
+    #fetchBtn { background: #10b981; color: white; margin-bottom: 5px; }
+    #fetchBtn:hover { background: #059669; }
+    
+    #searchInput { 
+      width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #334155; 
+      background: #1e293b; color: white; box-sizing: border-box; margin-bottom: 5px;
+    }
+
+    #assignmentList { background: var(--card); border-radius: 12px; max-height: 200px; overflow-y: auto; border: 1px solid #334155; }
+    .assignment-item { padding: 12px; border-bottom: 1px solid #334155; cursor: pointer; font-size: 13px; line-height: 1.6; }
+    .assignment-item:hover { background: #334155; }
+    .selected { background: #0ea5e922 !important; border-left: 4px solid var(--accent); color: var(--accent); font-weight: bold; }
+
+    #modeSelector { display: none; flex-direction: column; gap: 10px; animation: fadeIn 0.4s ease; margin-top: 10px; }
+    #generatePlanBtn { background: var(--accent); color: #0f172a; }
+    #explainBtn { background: #f59e0b; color: white; }
+
+    #output {
+      background: #1e293b; padding: 15px; border-radius: 12px; font-size: 13px; line-height: 1.7;
+      border: 1px solid #334155; min-height: 60px; max-height: 320px; overflow-y: auto;
+      white-space: pre-wrap; word-break: break-word; margin-top: 15px;
+    }
+    .plan-section { margin: 8px 0 4px; padding-left: 10px; border-left: 3px solid var(--accent); }
+    .type-tag { font-size: 10px; padding: 2px 6px; border-radius: 4px; background: #0ea5e9; margin-left: 5px; vertical-align: middle; color: white; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h2><i class="fas fa-robot"></i> CLASSAI PLANNER</h2>
+  </div>
+
+  <div class="content">
+    <button id="fetchBtn" class="btn">
+      <i class="fas fa-sync-alt"></i> Fetch Assignments
+    </button>
+
+    <input type="text" id="searchInput" placeholder="Search by class or task...">
+
+    <div id="assignmentList">
+      <div style="padding:20px; text-align:center; color:#64748b;">No assignments loaded</div>
+    </div>
+
+    <div id="modeSelector">
+      <button id="generatePlanBtn" class="btn">
+        <i class="fas fa-magic"></i> Plan Assignment
+      </button>
+      <button id="explainBtn" class="btn">
+        <i class="fas fa-book-open"></i> Explain Notes / Lecture
+      </button>
+    </div>
+
+    <div id="output">Results will appear here...</div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
