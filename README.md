@@ -74,5 +74,4 @@ This project is for educational purposes.
 
 ## 👨‍💻 Author
 
-Developed by [Your Name]  
-GitHub: [your-github-link]
+Developed by Faraaj Younas  
