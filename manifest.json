@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "key": "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2zTcEPi4GAfZs2V5agSsaMhwsaNGmZIeEDpsCCEVuAqGGdmocAhaJ9vzw8xZtxKmnZu0QXe+Ct4CJniF4318H7W43BXdXpzbYUZa4VkXLkLRgP7oZgjxV9EKuXI+lNwOk3ZKaFRMhm68KYu4IzeSuKRbqHX+JZyt83onSA7qdoy8n/bCOB9IwFAj0ORVf8cnrM05/dwlv2bqbDFS2HNsXb+W7w59qDGdacX4rfbiQnFl7Ol8UFam9DdQmg0EFN0qXx28uKEZD9gu4sHT0rHvsdVVP9M46+oPgX64BQHVvw/EMSG/1vsUBqgIaVZ5qiVrP2CcBiVp7j2AdLJ+dJ369AgMBAAECggEAJKZdPu0Ghi7TjLxB9gxKq3xbeK3lRqKGJvxUqKIm5WkCoHZSTN5ATZXm3ZonJ4fT6duxcOQcdo066Jx7IoRKRckdHUvrwvej/9fPy5KEeM1A1MFCGwYo+aS4z8OAC0RN5zqDP4A1LzpK7F6sUbiR/jb/wJ18afx01Bq78A7OVfc/13ucuKLt1nC3wg01qGnrWdwhBjJ1Hnn0C/446exgs1Bx699pJyJ1LyBDxKGt6kn4RTzZ3+jj3+gdX8tqtFDMu2bksiPiR7mLl55pVYycNOJQRsTBmkX0/vPSiLmFraggi43CoqDX+B8f+V/9cEDXFG7+IeslBSmCrFGNpibhMwKBgQDykL/fyhIM8j6vFjm45VlQ9G62SuSVQnnGxqZ046hxF1FmRem3smzfvwb18o67jGGGYyuFiETPSjfBjx8Hx8ctiy5o9acbMs0K+lULFOlgz3d/icFAxD6CtGmFqGgLPnLdz6nI45VESecL0looANRRRhvUK6XNCKn2AOrtKIOLnwKBgQDA7RhiW94vv8uWCTFF8bHzkQbg+Am72P3THk1nuX20hSXZJS8iUmzRgWC28foD05eVR4RNY26BkewD2CXqjWqjQ+r/hJDJHOl2Pmkcd8p5r1vloclcmWnUKs5Lj+TnzC7ZUcDLFn9fjtrMQ/0pRieSneO/IoLURi54WKF6MZuYIwKBgA2ES2zpEcBu71dKYcUP4r5EILc/zSUUIz0UbMoutYA30G1mj/OQmciOGJE0BwgkdnrKo+44/byfYiQDGbORSmQbUWa/6aP2XL6z3HFVpPukFACjaIV3ahRWgVrVW5bkz/nUTJ3JMNQxWhKqkiOQiERPJ9XW6NJYHUB8JJs6mrn5AoGAXmsrBehEI0ZQkstI7BxPpQ6TOULrMJ4QC2THKT5kwRZw4YcLPFbuntIczSw72eeSRiLMIzvId208/tyoIdS4HdM9jXQJkAOwVohQ1Pfjhg5GgWnerI0AeC/C6sQvmSoau40BN+N4zwGRH2se2TZWY7EWJxLyyITYdVmbHbxtk9UCgYEAm22wZMTPR2LECUgieGKmEVj13odWqMJFe08cT6GX7Lv6Nxql4BFp1xxwDuCSZeE2bYVuMHSLWAZmJWQJbR4BX0BnOlXePvf704VKzUuryRXBE8mh27l3FC4XPFMtSEDoTV2X1PHzXw42heKwLp/Fequ+pMkc28vgTLDXqaRYGg8=",
+  "key": "Here will be API KEY",
   "name": "Classroom AI Planner Pro",
   "version": "1.3.1",
   "permissions": [
@@ -16,7 +16,7 @@
     "https://www.googleapis.com/drive/v3/files/*"
   ],
   "oauth2": {
-    "client_id": "1011551085241-hb9hjconge7rjdk8nlj0vm0p8rbucicr.apps.googleusercontent.com",
+    "client_id": "Here Will Be the Client id",
     "scopes": [
       "https://www.googleapis.com/auth/classroom.coursework.me.readonly",
       "https://www.googleapis.com/auth/classroom.courses.readonly",
