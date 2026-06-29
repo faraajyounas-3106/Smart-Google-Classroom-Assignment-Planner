@@ -4,24 +4,24 @@ Smart GCR Planner is a browser extension designed to help students organize and 
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📅 Add and manage assignments easily  
-- ⏰ Tracks deadlines and prioritizes tasks  
-- 🧠 Smart planning based on due dates  
-- 📊 Helps students distribute workload effectively  
-- 🔔 Deadline reminders (if implemented)  
-- 🧩 Simple and lightweight interface  
+-  Add and manage assignments easily  
+-  Tracks deadlines and prioritizes tasks  
+-  Smart planning based on due dates  
+-  Helps students distribute workload effectively  
+-  Deadline reminders (if implemented)  
+-  Simple and lightweight interface  
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 
 Students often struggle with managing multiple assignments at once. Smart GCR Planner solves this by providing a structured way to plan tasks and avoid last-minute stress.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML  
 - CSS  
@@ -30,7 +30,7 @@ Students often struggle with managing multiple assignments at once. Smart GCR Pl
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. Clone or download this repository  
 2. Open Chrome and go to `chrome://extensions/`  
@@ -41,7 +41,7 @@ Students often struggle with managing multiple assignments at once. Smart GCR Pl
 
 ---
 
-## 🧑‍💻 How to Use
+## How to Use
 
 1. Open the Smart GCR Planner extension  
 2. Add your assignment details (title, subject, deadline)  
@@ -50,7 +50,7 @@ Students often struggle with managing multiple assignments at once. Smart GCR Pl
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 - AI-based smart scheduling  
 - Calendar integration (Google Calendar)  
@@ -60,18 +60,18 @@ Students often struggle with managing multiple assignments at once. Smart GCR Pl
 
 ---
 
-## 🤝 Contribution
+##  Contribution
 
 Contributions are welcome. Feel free to fork the repo and submit pull requests.
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational purposes.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Developed by Faraaj Younas  
